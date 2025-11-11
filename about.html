@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Me</title>
+  <link rel="stylesheet" href="aboutstyle.css" />
+</head>
+<body>
+
+  <div class="container">
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <h1>MY PORTFOLIO</h1>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="intro">
+      <div class="text">
+        <p>About me</p>
+        <p>Curious and creative, I’m always exploring new ways to bring ideas to life through code and design.</p>
+        <p>When I’m not experimenting with projects, you’ll find me shooting hoops, diving into online games, or hanging out with friends.</p>
+        <p>I use HTML, Tailwind CSS, JavaScript, PHP, and MySQL, with Git for version control to build and manage my web applications.</p>
+      </div>
+    </section>
+  </div>
+<script>
+function toggleMenu() {
+  const menu = document.querySelector("nav ul");
+  menu.classList.toggle("show");
+}
+</script
+</body>
+</html>

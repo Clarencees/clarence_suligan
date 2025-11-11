@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+  <div class="container">
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <h1>MY PORTFOLIO</h1>
+
+    <nav>
+  <ul id="menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+   
+    <section class="intro">
+      <div class="profile image">
+        <img src="pic.jpg" alt="Profile Picture" />
+      </div>
+      <div class="bio text">
+        <p>"Hello, I’m Clarence M. Suligan, an Information Technology student. I’m passionate about learning and improving my skills in technology."</p>
+      </div>
+    </section>
+
+  </div>
+<script>
+function toggleMenu() {
+  const menu = document.querySelector("nav ul");
+  menu.classList.toggle("show");
+}
+</script>
+
+</body>
+</html>
